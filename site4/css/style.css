@@ -1,0 +1,80 @@
+:root {
+  --mavi: #6bc2f1;
+}
+header {
+  background: url("../img/headbg.jpg") 60% 50% / cover;
+}
+.bg-mavi {
+  background-color: var(--mavi);
+}
+.text-mavi {
+  color: var(--mavi);
+}
+.vh-50 {
+  height: 50vh;
+}
+#doctorimg {
+  max-width: 440px;
+}
+#surgeons {
+  background: url("../img/surgeons.jpg") center/cover;
+}
+#children {
+  background: url("../img/children.jpg") center/cover;
+}
+#surgeons:hover {
+  opacity: 0.5;
+}
+#children:hover {
+  opacity: 0.5;
+}
+#surgeons:hover a {
+  display: initial !important;
+}
+#children:hover a {
+  display: initial !important;
+}
+#carouselExampleCaptions {
+  .carousel-indicators button {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    transition: all 0.3s ease;
+    margin-right: 8px;
+    background: url('../img/girl.png') center/cover no-repeat;
+    &.active {
+      scale: 1.3;
+    }
+  }
+}
+.carousel-item { height: 50vh;}
+.carousel-indicators button {
+    border-radius: 50%;
+    width: 45px!important;
+    height: 45px!important;
+}
+.carousel-caption {
+    bottom: 10rem!important
+}
+.carousel-control-prev, .carousel-control-next {
+    top: 75%!important;
+}
+
+@media only screen and (min-width: 768px) {
+    .carousel-control-prev, .carousel-control-next { width: 40%; }
+}
+.card-img-top {
+  width: 66px;
+  height: 65px;
+}
+footer {
+  background-color: black;
+}
+footer ul li a {
+  color: white;
+  text-decoration: none;
+}
+footer ul {
+  list-style-type: none;
+}
+
